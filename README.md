@@ -1,20 +1,25 @@
 # Data-Driven-Insights-into-Voting-Patterns-for-Gaming-Legalization
 
 Objective: The goal is to predict whether counties will vote "yes" or "no" to legalizing gaming through a ballot. Understanding voting patterns can help stakeholders, such as policymakers, understand the demographic and socio-economic factors influencing voting behaviors.
-
+<br>
+<br>
 Key Questions:
-What are the significant factors that affect voting behavior for gaming legalization?
+<br>
+What are the significant factors that affect voting behavior for gaming legalization?<br>
 Answer: - From the dataset, significant factors likely influencing voting behavior could include socio-economic indicators such as "Poverty Level". Demographic characteristics, such as "Percent Minority", "Percent White", "Percent Church Members of Population", and age distribution, might also play a critical role. For example, areas with higher poverty levels or specific demographic compositions might have distinct voting patterns based on economic or cultural perspectives.
-
-Can we identify patterns that indicate support or opposition?
+<br>
+<br>
+Can we identify patterns that indicate support or opposition?<br>
 Answer: - Yes, by analyzing the data, we can identify patterns that distinguish counties more likely to vote "FOR" or "AGAINST" legalizing gaming. For instance, counties with higher average incomes and lower poverty rates may show more support due to economic benefits. Conversely, counties with a higher percentage of church members or lower population densities might oppose it due to social or moral concerns. Patterns might emerge from statistical correlations, which will help in identifying key predictors.
-
-How can we improve model predictions for better accuracy?
-Answer: - Improving model predictions involves several steps:
-1.Feature Engineering: Creating new features that capture complex relationships.
-2.Model Ensemble: Combining predictions from multiple models (e.g., a voting ensemble of Decision Trees, Naïve Bayes, and KNN) can improve accuracy and robustness.
+<br>
+<br>
+How can we improve model predictions for better accuracy?<br>
+Answer: - Improving model predictions involves several steps:<br>
+1.Feature Engineering: Creating new features that capture complex relationships.<br>
+2.Model Ensemble: Combining predictions from multiple models (e.g., a voting ensemble of Decision Trees, Naïve Bayes, and KNN) can improve accuracy and robustness.<br>
 3.Data Cleaning and Normalization: Ensuring data quality by handling outliers, missing values, and scaling numerical features can lead to better predictive performance.
-
+<br>
+<br>
 Success Criteria: A successful outcome will be a model that accurately predicts voting outcomes and identifies the most impactful variables.
 
 
