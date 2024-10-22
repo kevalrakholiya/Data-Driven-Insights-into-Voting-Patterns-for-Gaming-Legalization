@@ -17,39 +17,40 @@ Answer: - Improving model predictions involves several steps:
 
 Success Criteria: A successful outcome will be a model that accurately predicts voting outcomes and identifies the most impactful variables.
 
-VARIABLE DESCRIPTIONS:
 
-State No: A numerical identifier for the state.
-County No: A numerical identifier for the county within the state.
-FOR: Number of votes cast in favor of the proposal or candidate.
-AGAINST: Number of votes cast against the proposal or candidate.
-TOTAL CASTE: Total number of votes cast.
-DEPENDENT VARIABLE: A binary indicator for the outcome variable (1 for Yes, 0 for No).
-BALLOT TYPE: A numerical code representing the type of ballot used (e.g., 1 for Gambling, 2 for Wagering).
-POPULATION: Total population of the county.
-PCI: Per Capita Income of the county, formatted as currency.
-MEDIUM FAMILY INCOME: Median family income of the county, formatted as currency.
-SIZE OF COUNTY: Land area of the county in square miles.
-POPULATION DENSITY: Population density, calculated as population per square mile.
-PERCENT WHITE: Percentage of the population that identifies as White.
-PERCENT BLACK: Percentage of the population that identifies as Black.
-PERCENT OTHER: Percentage of the population that identifies as other races/ethnicities.
-PERCENT MALE: Percentage of the population that identifies as male.
-PERCENT FEMALE: Percentage of the population that identifies as female.
-NO OF CHURCHES: Total number of churches in the county.
-NO OF CHURCH MEMBERS: Total number of church members in the county.
-PERCENT CHURCH MEMBERS OF POPULATION: Percentage of the total population that are church members.
-POVERTY LEVEL: Percentage of the population living below the poverty line.
-UNEMPLOYMENT RATE: Percentage of the workforce that is unemployed.
-AGE LESS THAN 18: Total number of individuals aged less than 18.
-AGE 24 Total: number of individuals aged 24.
-AGE 44 Total: number of individuals aged 44.
-AGE 64 Total: number of individuals aged 64.
-AGE OLDER THAN 65: Total number of individuals aged 65 and older.
-MSA: A numerical code indicating if the county is part of a Metropolitan Statistical Area. (1 for Yes, 0 for No)
-PERCENT MINORITY: Percentage of the population that identifies as a minority.
-NO OF OLDER: Total number of older adults in the county (presumably over 65).
-NO OF YOUNGER: Total number of younger individuals in the county (presumably under 18).
-
-
-Target Variable: DEPENDENT VARIABLE
+VARIABLE DESCRIPTIONS:<br>
+<br>
+State No:	A numerical identifier for the state.<br>
+County No:	A numerical identifier for the county within the state.<br>
+FOR:	Number of votes cast in favor of the proposal or candidate.<br>
+AGAINST:	Number of votes cast against the proposal or candidate.<br>
+TOTAL CASTE:	Total number of votes cast.<br>
+DEPENDENT VARIABLE:	A binary indicator for the outcome variable (1 for Yes, 0 for No).<br>
+BALLOT TYPE:	A numerical code representing the type of ballot used (e.g., 1 for Gambling, 2 for Wagering).<br>
+POPULATION:	Total population of the county.<br>
+PCI:	Per Capita Income of the county, formatted as currency.<br>
+MEDIUM FAMILY INCOME:	Median family income of the county, formatted as currency.<br>
+SIZE OF COUNTY:	Land area of the county in square miles.<br>
+POPULATION DENSITY:	Population density, calculated as population per square mile.<br>
+PERCENT WHITE: Percentage of the population that identifies as White.<br>
+PERCENT BLACK: Percentage of the population that identifies as Black.<br>
+PERCENT OTHER: Percentage of the population that identifies as other races/ethnicities.<br>
+PERCENT MALE:	Percentage of the population that identifies as male.<br>
+PERCENT FEMALE:	Percentage of the population that identifies as female.<br>
+NO OF CHURCHES:	Total number of churches in the county.<br>
+NO OF CHURCH MEMBERS:	Total number of church members in the county.<br>
+PERCENT CHURCH MEMBERS OF POPULATION:	Percentage of the total population that are church members.<br>
+POVERTY LEVEL:	Percentage of the population living below the poverty line.<br>
+UNEMPLOYMENT RATE: Percentage of the workforce that is unemployed.<br>
+AGE LESS THAN 18:	Total number of individuals aged less than 18.<br>
+AGE 24	Total: number of individuals aged 24.<br>
+AGE 44	Total: number of individuals aged 44.<br>
+AGE 64	Total: number of individuals aged 64.<br>
+AGE OLDER THAN 65:	Total number of individuals aged 65 and older.<br>
+MSA:	A numerical code indicating if the county is part of a Metropolitan Statistical Area. (1 for Yes, 0 for No)<br>
+PERCENT MINORITY: Percentage of the population that identifies as a minority.<br>
+NO OF OLDER: Total number of older adults in the county (presumably over 65).<br>
+NO OF YOUNGER: Total number of younger individuals in the county (presumably under 18).<br>
+<br>
+<br>
+Target Variable: **DEPENDENT VARIABLE**
